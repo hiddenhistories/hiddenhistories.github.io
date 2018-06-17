@@ -151,8 +151,10 @@ into the {body} of the default.hbs template -->
 <html lang="en">
 <head>
     <style>
-        .publication-item a {
+        .publication-item .title {
             font-weight: bold;
+            color: #000;
+            box-shadow: inset 0 -1px 0 #3eb0ef;
         }
         .publication-item img {
             height: 100%;
@@ -164,6 +166,7 @@ into the {body} of the default.hbs template -->
         .publication-item {
             display:flex;
             justify-content: space-between;
+            margin-bottom: 10px;
         }
         .description {
             font-size: 1.8rem;
@@ -179,7 +182,7 @@ into the {body} of the default.hbs template -->
     <h3>Books</h3>
     <div class="publication-item">
         <div class="text">
-            <a href="https://link.springer.com/book/10.1007/978-3-319-20170-2">Computation and the Humanities: Towards an Oral History of Digital Humanities</a>
+            <a class="title" href="https://link.springer.com/book/10.1007/978-3-319-20170-2">Computation and the Humanities: Towards an Oral History of Digital Humanities</a>
             <p class="description">Nyhan, J., & Flinn, A. (2016). Computation and the Humanities: Towards an Oral History of Digital Humanities. Springer International Publishing. Retrieved from https://www.springer.com/us/book/9783319201696</p>
             <p><a class="review" href="http://www.bookmetrix.com/detail/book/04e0dfa0-99ab-4fe2-bf49-33a433ba3d41#reviews">Reviews</a></p>
         </div>
@@ -189,7 +192,31 @@ into the {body} of the default.hbs template -->
     <h3>Articles</h3>
     <div class="publication-item">
         <div class="text">
-            <a href="https://academic.oup.com/dsh/article/30/1/71/353546">Oral History and the Hidden Histories project: towards histories of computing in the humanities</a>
+            <span class="title">On the history of peer review in the Digital Humanities: social and institutional considerations</span>
+            <p class="description">Submitted. On the history of peer review in the Digital Humanities: social and institutional considerations. In Susan Schreibman and Jennifer Edmond Eds. <i>Digital Methods and the Scholarly Communications Ecosystem</i>. Open Book publishers.
+            </p>
+        </div>
+    </div>
+
+    <div class="publication-item">
+        <div class="text">
+            <a class="title" href="http://dhdebates.gc.cuny.edu/debates/2">Father Busa’s Female Punch Card Operatives</a>
+            <p class="description">Terras, M., & Nyhan, J. (2016). Father Busa’s Female Punch Card Operatives. Matther K. Gold & Lauren F. Klein (Eds.) <i>Debates in the Digital Humanities 2016</i>. University of Minnesota Press. Pp. 60-65.</p>
+        </div>
+        <img src="/assets/images/debates.jpg" alt="Debates in the Digital Humanities 2016">
+    </div>
+
+    <div class="publication-item">
+        <div class="text">
+            <a class="title" href="https://www.researchgate.net/publication/280836611_In_Search_of_Identities_in_the_Digital_Humanities_The_Early_History_of_Humanist">In search of identities in the Digital Humanities: the early history of Humanist</a>
+            <p class="description">Nyhan, J. (2016). 'In search of identities in the Digital Humanities: the early history of Humanist'. In Molloy, J (Ed.) <i>Social Media Archaeology and Poetics</i>. MIT Press. </p>
+        </div>
+        <img src="/assets/images/social-media-archeology.jpg" alt="Social Media Archaeology and Poetics">
+    </div>
+
+    <div class="publication-item">
+        <div class="text">
+            <a class="title" href="https://academic.oup.com/dsh/article/30/1/71/353546">Oral History and the Hidden Histories project: towards histories of computing in the humanities</a>
             <p class="description">Nyhan, J., Flinn, A., & Welsh, A. (2015). Oral History and the Hidden Histories project: towards histories of computing in the humanities. Literary and Linguistic Computing, 30(1), 71–85. https://doi.org/10.1093/llc/fqt044</p>
         </div>
         <img src="/assets/images/dsh.gif" alt="Literary and Linguistic Computing">
@@ -197,7 +224,7 @@ into the {body} of the default.hbs template -->
 
     <div class="publication-item">
         <div class="text">
-            <a href="https://academic.oup.com/dsh/article/29/3/387/986317">Joint and multi-authored publication patterns in the Digital Humanities</a>
+            <a class="title" href="https://academic.oup.com/dsh/article/29/3/387/986317">Joint and multi-authored publication patterns in the Digital Humanities</a>
             <p class="description">Nyhan, J., & Duke-Williams, O. (2014). Joint and multi-authored publication patterns in the Digital Humanities. Literary and Linguistic Computing, 29(3), 387–399. https://doi.org/10.1093/llc/fqu018</p>
         </div>
         <img src="/assets/images/llc.gif" alt="Literary and Linguistic Computing">
@@ -205,16 +232,14 @@ into the {body} of the default.hbs template -->
 
     <div class="publication-item">
         <div class="text">
-            <a href="http://discovery.ucl.ac.uk/1408651/">What can modern-day Digital Humanities learn from studying its past? Some recommendations and suggestions</a>
+            <a class="title" href="http://discovery.ucl.ac.uk/1408651/">What can modern-day Digital Humanities learn from studying its past? Some recommendations and suggestions</a>
             <p class="description">Nyhan, J. (2013). What can modern-day Digital Humanities learn from studying its past? Some recommendations and suggestions. University of Lille.</p>
         </div>
     </div>
 
-
-
     <div class="publication-item">
         <div class="text">
-            <a href="https://academic.oup.com/dsh/article/30/1/71/353546">A short Introduction to the Hidden Histories project and interviews</a>
+            <a class="title" href="https://academic.oup.com/dsh/article/30/1/71/353546">A short Introduction to the Hidden Histories project and interviews</a>
             <p class="description">Nyhan, J., Flinn, A., & Welsh, A. (2012). A short Introduction to the Hidden Histories project and interviews. Digital Humanities Quarterly, 006(3).</p>
         </div>
     </div>
@@ -225,78 +250,184 @@ into the {body} of the default.hbs template -->
 
     <div class="publication-item">
         <div class="text">
-            <a href="http://discovery.ucl.ac.uk/1452687/">Whose project is this? Whose stories do we tell? Participatory frameworks for community-based oral history projects</a>
-            <p class="description">Flinn, A; Nyhan, J; (2014) Whose project is this? Whose stories do we tell? Participatory frameworks for community-based oral history projects. In: (Proceedings) Community Voices: Oral History on the Ground.K</p>
+            <span class="title">Voices heard, voices silenced: on hidden contributions to the emergence of Digital Humanities c.1954-67</span>
+            <p class="description">Nyhan, J. (2018). Voices heard, voices silenced: on hidden contributions to the emergence of Digital Humanities c.1954-67. British Society for the History of Mathematics meeting, History of Computing beyond the computer", Oxford University, UK. </p>
         </div>
     </div>
 
     <div class="publication-item">
         <div class="text">
-            <a href="http://discovery.ucl.ac.uk/1452843/">Memory, narrative and disciplinary identity: an investigation</a>
-            <p class="description">Nyhan, J; (2014) Memory, narrative and disciplinary identity: an investigation. In: (Proceedings) Faculty lecture</p>
+            <span class="title">What are the longer-term origins of the asymmetrical power structures that shape so much of the practice of Digital Humanities?</span>
+            <p class="description">Nyhan, J. (2017). What are the longer-term origins of the asymmetrical power structures that shape so much of the practice of Digital Humanities? ITUG-Jahrestagung, Technischen Universitaet Darmstadt (Keynote).</p>
         </div>
     </div>
 
     <div class="publication-item">
         <div class="text">
-            <a href="http://discovery.ucl.ac.uk/1401744/">Uncovering the “hidden histories” of computing in the Humanities 1949 – 1980: findings and reflections on the pilot project</a>
-            <p class="description">Nyhan, J; (2013) Uncovering the “hidden histories” of computing in the Humanities 1949 – 1980: findings and reflections on the pilot project. In: (Proceedings) Digital Humanities 2013. (pp. pp. 326-328). Centre for Digital Research in the Humanities: University of Nebraska-Illinois: USA.</p>
+            <span class="title">‘Techies’ versus scholars: Roberto Busa’s Index Thomisticus project and its role in the establishment of the iniquitous power structures of Digital Humanities</span>
+            <p class="description">Nyhan, J. (2017). ‘‘Techies’ versus scholars: Roberto Busa’s Index Thomisticus project and its role in the establishment of the iniquitous power structures of Digital Humanities’. Digital Humanities at Siberian Federal University Conference. Krasnoyarsk, Russia.</p>
+        </div>
+    </div>
+
+
+    <div class="publication-item">
+        <div class="text">
+            <a class="title" href="https://www.research.ed.ac.uk/portal/en/publications/uncovering-hidden-contributions-to-the-history-of-digital-humanities(cd09298d-f15b-44cb-a37f-59f00264ea23)/export.html">Uncovering ‘hidden’ contributions to the history of Digital Humanities: the Index Thomisticus’ female keypunch operators</a>
+            <p class="description">Nyhan, J., & Terras, M. (2017). Uncovering ‘hidden’ contributions to the history of Digital Humanities: The Index Thomisticus’ female keypunch operators. Presented at the Digital Humanities 2017.
+            </p>
         </div>
     </div>
 
     <div class="publication-item">
         <div class="text">
-            <a href="http://discovery.ucl.ac.uk/1453228/">Through memories and times: reflections on reflecting on the histories of computing in the Humanities</a>
-            <p class="description">Nyhan, J; (2013) Through memories and times: reflections on reflecting on the histories of computing in the Humanities. In: (Proceedings) Les Humanités Délivrées / Humanities Unbound.</p>
+            <a class="title" href="https://www.research.ed.ac.uk/portal/en/publications/reverse-engineering-the-first-humanities-computing-center(9e3e385e-4dc7-4a0c-90ad-445080201712).html">Reverse Engineering the First Humanities Computing Center</a>
+            <p class="description">Jones, S. E., Nyhan, J., Rockwell, G., Sinclair, S., & Terras, M. (2017). Reverse engineering the first humanities computing center. Presented at the Digital Humanities 2017. 
+            </p>
         </div>
     </div>
 
     <div class="publication-item">
         <div class="text">
-            <a href="http://discovery.ucl.ac.uk/1359844/">Uncovering the “hidden histories” of computing in the Humanities 1949 – 1980: an overview of our key findings</a>
-            <p class="description">Nyhan, J; (2012) Uncovering the “hidden histories” of computing in the Humanities 1949 – 1980: an overview of our key findings. In: (Proceedings) Digital Humanities Congress 2012.</p>
+            <span class="title">The social history of Digital Humanities: an oral history perspective</span>
+            <p class="description">
+                Nyhan, J. (2017). The social history of Digital Humanities: an oral history perspective. The Making of the Humanities VI conference. Oxford.
+            </p>
         </div>
     </div>
 
     <div class="publication-item">
         <div class="text">
-            <a href="http://discovery.ucl.ac.uk/1359841/">Digital Humanities: histories or memories and what in between?</a>
-            <p class="description">Nyhan, J; (2012) Digital Humanities: histories or memories and what in between? In: (Proceedings) Leipzig University, European Summer School of Culture and Technology evening lecture.</p>
+            <span class="title">Knowledge organisation systems and Digital Humanities: looking back in order to look forward.</span>
+            <p class="description">
+                Nyhan, J. (2015). 'Knowledge organisation systems and Digital Humanities: looking back in order to look forward.' ISKO Knowledge organization systems and digital humanities. Strasbourg, France. (Keynote)
+            </p>
+        </div>
+    </div>
+    
+    <div class="publication-item">
+        <div class="text">
+            <a class="title" href="https://dhdhi.hypotheses.org/2453">New paths through the histories of Digital Humanities: uncovering hidden contributions to Busa's Index Thomisticus</a>
+            <p class="description">Nyhan, J. (2015). 'New paths through the histories of Digital Humanities: uncovering hidden contributions to Busa's Index Thomisticus' International Symposium of Information Science, University of Zadar Croatia</p>
+        </div>
+    </div>
+    
+    <div class="publication-item">
+        <div class="text">
+            <span class="title">An introduction to the Histories of Digital Humanities</span>
+            <p class="description">
+                Nyhan, J. (2015).  An introduction to the Histories of Digital Humanities. University of Babes-Bolyaiy / Transylvanian Digital Humanities Centre, Romania
+            </p>
         </div>
     </div>
 
     <div class="publication-item">
         <div class="text">
-            <a href="http://discovery.ucl.ac.uk/1359842/">Contributions towards a history of computing in the Humanities</a>
-            <p class="description">Nyhan, J; (2012) Contributions towards a history of computing in the Humanities. In: (Proceedings) University College Cork, School of Historical Sciences Seminar Series.</p>
+            <a class="title" href="https://www.tdt.tu-darmstadt.de/index.php?id=3491">Collaboration and Digital Humanities: Two Studies and a Plea</a>
+            <p class="description">
+                    Nyhan J. (2015). Collaboration and Digital Humanities: two studies and a plea. Technospaces. Persistence - Practices - Procedures - Power. University of Darmstadt, Germany
+            </p>
         </div>
     </div>
 
     <div class="publication-item">
         <div class="text">
-            <a href="http://discovery.ucl.ac.uk/1359842/">Contributions towards a history of computing in the Humanities</a>
-            <p class="description">Nyhan, J; (2012) Contributions towards a history of computing in the Humanities. In: (Proceedings) University College Cork, School of Historical Sciences Seminar Series.</p>
+            <span class="title">Merging technology and historical research: What Are the Future Archives Like?</span>
+            <p class="description">
+                Nyhan, J. (2015). Nyhan J. Invited panel member. TALK ART/TALK SOCIETY Merging technology and historical research: What are the future archives like? The Finnish Institute in London, UK.
+            </p>
         </div>
     </div>
 
     <div class="publication-item">
         <div class="text">
-            <a href="http://discovery.ucl.ac.uk/1359839/">What is oral history and what role can it play in the history of Digital Humanities?</a>
-            <p class="description">Nyhan, J; (2012) What is oral history and what role can it play in the history of Digital Humanities? In: (Proceedings) Universitatet Trier, Digital Humanities Seminar Series</p>
+            <a class="title" href="http://discovery.ucl.ac.uk/1462007/">Digital Humanities: origins and future directions.</a>
+            <p class="description">Nyhan J. (2015). Digital Humanities: origins and future directions. Invited research seminar: University of Gothenburg, Sweden.</p>
+        </div>
+    </div>
+    
+     <div class="publication-item">
+        <div class="text">
+            <span class="title">Collaboration and Digital Humanities: on the past, present and future</span>
+            <p class="description">
+                Nyhan, J. (2014). Collaboration and Digital Humanities: on the past, present and future. Transforming Digital Methods conference. University of Exeter.
+            </p>
         </div>
     </div>
 
     <div class="publication-item">
         <div class="text">
-            <a href="http://discovery.ucl.ac.uk/1359839/">What is oral history and what role can it play in the history of Digital Humanities?</a>
-            <p class="description">Nyhan, J; (2012) What is oral history and what role can it play in the history of Digital Humanities? In: (Proceedings) Universitatet Trier, Digital Humanities Seminar Series</p>
+            <a class="title" href="http://discovery.ucl.ac.uk/1452687/">Whose project is this? Whose stories do we tell? Participatory frameworks for community-based oral history projects</a>
+            <p class="description">Flinn, A; Nyhan, J. (2014). Whose project is this? Whose stories do we tell? Participatory frameworks for community-based oral history projects. In: (Proceedings) Community Voices: Oral History on the Ground.K</p>
         </div>
     </div>
 
     <div class="publication-item">
         <div class="text">
-            <a href="http://discovery.ucl.ac.uk/1414066/">Hidden Histories: Computing in the Humanities, c. 1949-1980: pilot study</a>
-            <p class="description">Nyhan, J; Welsh, A; Theobald, M; (2011) Hidden Histories: Computing in the Humanities, c. 1949-1980: pilot study. In: (Proceedings) London Seminar in Digital Text and Scholarship.</p>
+            <a class="title" href="http://discovery.ucl.ac.uk/1452843/">Memory, narrative and disciplinary identity: an investigation</a>
+            <p class="description">Nyhan, J. (2014). Memory, narrative and disciplinary identity: an investigation. In: (Proceedings) Faculty lecture</p>
+        </div>
+    </div>
+
+    <div class="publication-item">
+        <div class="text">
+            <a class="title" href="http://discovery.ucl.ac.uk/1401744/">Uncovering the “hidden histories” of computing in the Humanities 1949 – 1980: findings and reflections on the pilot project</a>
+            <p class="description">Nyhan, J. (2013). Uncovering the “hidden histories” of computing in the Humanities 1949 – 1980: findings and reflections on the pilot project. In: (Proceedings) Digital Humanities 2013. (pp. pp. 326-328). Centre for Digital Research in the Humanities: University of Nebraska-Illinois: USA.</p>
+        </div>
+    </div>
+
+    <div class="publication-item">
+        <div class="text">
+            <a class="title" href="http://discovery.ucl.ac.uk/1453228/">Through memories and times: reflections on reflecting on the histories of computing in the Humanities</a>
+            <p class="description">Nyhan, J. (2013). Through memories and times: reflections on reflecting on the histories of computing in the Humanities. In: (Proceedings) Les Humanités Délivrées / Humanities Unbound.</p>
+        </div>
+    </div>
+
+    <div class="publication-item">
+        <div class="text">
+            <a class="title" href="http://discovery.ucl.ac.uk/1359844/">Uncovering the “hidden histories” of computing in the Humanities 1949 – 1980: an overview of our key findings</a>
+            <p class="description">Nyhan, J. (2012). Uncovering the “hidden histories” of computing in the Humanities 1949 – 1980: an overview of our key findings. In: (Proceedings) Digital Humanities Congress 2012.</p>
+        </div>
+    </div>
+
+    <div class="publication-item">
+        <div class="text">
+            <a class="title" href="http://discovery.ucl.ac.uk/1359841/">Digital Humanities: histories or memories and what in between?</a>
+            <p class="description">Nyhan, J. (2012). Digital Humanities: histories or memories and what in between? In: (Proceedings) Leipzig University, European Summer School of Culture and Technology evening lecture.</p>
+        </div>
+    </div>
+
+    <div class="publication-item">
+        <div class="text">
+            <a class="title" href="http://discovery.ucl.ac.uk/1359842/">Contributions towards a history of computing in the Humanities</a>
+            <p class="description">Nyhan, J. (2012). Contributions towards a history of computing in the Humanities. In: (Proceedings) University College Cork, School of Historical Sciences Seminar Series.</p>
+        </div>
+    </div>
+
+    <div class="publication-item">
+        <div class="text">
+            <a class="title" href="http://discovery.ucl.ac.uk/1359842/">Contributions towards a history of computing in the Humanities</a>
+            <p class="description">Nyhan, J. (2012). Contributions towards a history of computing in the Humanities. In: (Proceedings) University College Cork, School of Historical Sciences Seminar Series.</p>
+        </div>
+    </div>
+
+    <div class="publication-item">
+        <div class="text">
+            <a class="title" href="http://discovery.ucl.ac.uk/1359839/">What is oral history and what role can it play in the history of Digital Humanities?</a>
+            <p class="description">Nyhan, J. (2012). What is oral history and what role can it play in the history of Digital Humanities? In: (Proceedings) Universitatet Trier, Digital Humanities Seminar Series</p>
+        </div>
+    </div>
+
+    <div class="publication-item">
+        <div class="text">
+            <a class="title" href="http://discovery.ucl.ac.uk/1359839/">What is oral history and what role can it play in the history of Digital Humanities?</a>
+            <p class="description">Nyhan, J. (2012). What is oral history and what role can it play in the history of Digital Humanities? In: (Proceedings) Universitatet Trier, Digital Humanities Seminar Series</p>
+        </div>
+    </div>
+
+    <div class="publication-item">
+        <div class="text">
+            <a class="title" href="http://discovery.ucl.ac.uk/1414066/">Hidden Histories: Computing in the Humanities, c. 1949-1980: pilot study</a>
+            <p class="description">Nyhan, J Welsh, A Theobald, M. (2011). Hidden Histories: Computing in the Humanities, c. 1949-1980: pilot study. In: (Proceedings) London Seminar in Digital Text and Scholarship.</p>
         </div>
     </div>
 </body>
