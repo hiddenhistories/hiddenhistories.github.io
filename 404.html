@@ -1,3 +1,9 @@
+---
+layout: error
+current: error
+title: "404 - Page Not Found"
+permalink: 404.html
+---
 <!--
 This error template is used for all 404 errors, which might occur on your site.
 It's a good idea to keep this template as minimal as possible in terms of both file size and complexity.
@@ -8,83 +14,25 @@ It's a good idea to keep this template as minimal as possible in terms of both f
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>404 - Page Not Found</title>
+    <title>{{ page.title }}</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/built/screen.edited.css" />
     <!-- This tag outputs SEO meta+structured data and other important settings -->
-    <meta name="description" content="Digital Humanities 1949 - Present" />
-    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="/404.html" />
-    <meta name="referrer" content="no-referrer-when-downgrade" />
-
-     <!--title below is coming from _includes/dynamic_title-->
-    <meta property="og:site_name" content="Hidden Histories" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="404 - Page Not Found" />
-    <meta property="og:description" content="Digital Humanities 1949 - Present" />
-    <meta property="og:url" content="/404.html" />
-    <meta property="og:image" content="/assets/images/blog-cover.jpg" />
-    <meta property="article:published_time" content="" />
-    <meta property="article:modified_time" content="" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="404 - Page Not Found" />
-    <meta name="twitter:description" content="Digital Humanities 1949 - Present" />
-    <meta name="twitter:url" content="/" />
-    <meta name="twitter:image" content="/assets/images/blog-cover.jpg" />
-    <meta name="twitter:label1" content="Written by" />
-    <meta name="twitter:data1" content="Hidden Histories" />
-    <meta name="twitter:site" content="@dhhist" />
-    <meta name="twitter:creator" content="@dhhist" />
-    <meta property="og:image:width" content="2000" />
-    <meta property="og:image:height" content="666" />
-
-    <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Website",
-    "publisher": {
-        "@type": "Organization",
-        "name": "Hidden Histories",
-        "logo": "/assets/images/blog-icon.png"
-    },
-    "url": "/404.html",
-    "image": {
-        "@type": "ImageObject",
-        "url": "/assets/images/blog-cover.jpg",
-        "width": 2000,
-        "height": 666
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "/404.html"
-    },
-    "description": "Digital Humanities 1949 - Present"
-}
-    </script>
-
-    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
-    <script type="text/javascript">
-    ghost.init({
-    	clientId: "ghost-frontend",
-    	clientSecret: "f84a07a72b17"
-    });
-    </script> -->
-
-    <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="404 - Page Not Found" href="/feed.xml" />
-
+    {% include head.html %}
 </head>
 <body class="error-template">
     <div class="site-wrapper">
 
-        <header class="site-header outer no-cover">
+        <header class="site-header outer {% if page.cover %}" style="background-image: url({{ site.baseurl }}{{ page.cover }})){% else %}no-cover{% endif %}">
             <div class="inner">
                 <nav class="site-nav-center">
-                    
-                        <a class="site-nav-logo" href="/"><img src="/assets/images/blog-icon.png" alt="Hidden Histories" /></a>
-                    
+                    {% if site.logo %}
+                        <a class="site-nav-logo" href="{{ site.baseurl }}"><img src="{{site.baseurl}}{{ site.logo }}" alt="{{ site.title }}" /></a>
+                    {% else %}
+                        <a class="site-nav-logo" href="{{ site.baseurl }}">{{ site.title }}</a>
+                    {% endif %}
                 </nav>
             </div>
         </header>
@@ -95,7 +43,7 @@ It's a good idea to keep this template as minimal as possible in terms of both f
                 <section class="error-message">
                     <h1 class="error-code">404</h1>
                     <p class="error-description">Page not found</p>
-                    <a class="error-link" href="/">Go to the front page →</a>
+                    <a class="error-link" href="{{ site.baseurl }}">Go to the front page →</a>
                 </section>
             </div>
         </main>
@@ -105,304 +53,7 @@ It's a good idea to keep this template as minimal as possible in terms of both f
             <div class="inner">
                 <div class="post-feed">
                     <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-                    
-
-    
-    
-        <article class="post-card ">
-            
-                <a class="post-card-image-link" href="/symposium-on-methodologies">
-                    <div class="post-card-image" style="background-image: url(/assets/images/sky.jpg)"></div>
-                </a>
-            
-            <div class="post-card-content">
-                <a class="post-card-content-link" href="/symposium-on-methodologies">
-                    <header class="post-card-header">
-                        
-                            
-                                
-                                   <span class="post-card-tags">Activities</span>
-                                
-                            
-                                
-                                    <span class="post-card-tags">Talks</span>
-                                
-                            
-                        
-
-                        <h2 class="post-card-title">Podcasts of Symposium on Methodologies for the History of Computing in the Humanities, c.1949-1980 now available!</h2>
-                    </header>
-                    <section class="post-card-excerpt">
-                        <p>University College London, 17 September 2011 (Sponsored by HKFZ and UCLDH) (Click the titles to listen to the podcasts.) Opening Keynote : Beyond chronology and profession: discovering how to write a history of</p>
-                    </section>
-                </a>
-                <footer class="post-card-meta">
-                    
-                        
-                            
-                            <img class="author-profile-image" src="/assets/images/juliannenyhan.png" alt="Julianne Nyhan" />
-                            
-                            <span class="post-card-author">
-                                <a href="/author/juliannenyhan/">Julianne Nyhan</a>
-                            </span>
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                </footer>
-            </div>
-        </article>
-    
-
-    
-    
-        <article class="post-card ">
-            
-                <a class="post-card-image-link" href="/judy-malloy">
-                    <div class="post-card-image" style="background-image: url(/assets/images/judy-malloy.png)"></div>
-                </a>
-            
-            <div class="post-card-content">
-                <a class="post-card-content-link" href="/judy-malloy">
-                    <header class="post-card-header">
-                        
-                            
-                                
-                                    <span class="post-card-tags">Oral history</span>
-                                
-                            
-                        
-
-                        <h2 class="post-card-title">The Influence of Algorithmic Thinking: Judy Malloy and Julianne Nyhan</h2>
-                    </header>
-                    <section class="post-card-excerpt">
-                        <p>Full text: in Chapter 7 of Computation and the Humanities Abstract This interview was carried out via skype on 11 August 2015 at 20:30 GMT. Malloy was provided with the core interview questions</p>
-                    </section>
-                </a>
-                <footer class="post-card-meta">
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                            
-                            <img class="author-profile-image" src="/assets/images/judy-malloy.png" alt="Judy Malloy" />
-                            
-                            <span class="post-card-author">
-                                <a href="/author/judymalloy/">Judy Malloy</a>
-                            </span>
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                </footer>
-            </div>
-        </article>
-    
-
-    
-    
-        <article class="post-card ">
-            
-                <a class="post-card-image-link" href="/wilhelm-ott">
-                    <div class="post-card-image" style="background-image: url(/assets/images/wilhelm-ott.jpg)"></div>
-                </a>
-            
-            <div class="post-card-content">
-                <a class="post-card-content-link" href="/wilhelm-ott">
-                    <header class="post-card-header">
-                        
-                            
-                                
-                                    <span class="post-card-tags">Oral history</span>
-                                
-                            
-                        
-
-                        <h2 class="post-card-title">The University Was Still Taking Account of universitas scientiarum: Wilhelm Ott and Julianne Nyhan</h2>
-                    </header>
-                    <section class="post-card-excerpt">
-                        <p>Full text: in Chapter 4 of Computation and the Humanities Audio version: accompanying audio interview Further related blog posts: related blog post written by Julianne Nyhan Abstract This oral history interview between Wilhelm</p>
-                    </section>
-                </a>
-                <footer class="post-card-meta">
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                            
-                            <img class="author-profile-image" src="/assets/images/wilhelm-ott.jpg" alt="Wilhelm Ott" />
-                            
-                            <span class="post-card-author">
-                                <a href="/author/wilhelmott/">Wilhelm Ott</a>
-                            </span>
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                </footer>
-            </div>
-        </article>
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-
+                    {%  include post-card-error.html %}
                 </div>
             </div>
         </aside>
@@ -411,4 +62,3 @@ It's a good idea to keep this template as minimal as possible in terms of both f
     </div>
 </body>
 </html>
-

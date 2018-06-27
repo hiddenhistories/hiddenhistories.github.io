@@ -1,0 +1,201 @@
+juliannenyhan:
+  username: juliannenyhan
+  name: Julianne Nyhan
+  url_full: https://archelogos.hypotheses.org/author/archelogos
+  url: archelogos.hypotheses.org/author/archelogos
+  bio: Deputy Director of the UCL Centre for Digital Humanities; Programme Director of the MA/MSc in Digital Humanities; Senior Lecturer (Associate Professor) in Digital Information Studies, UCL Department of Information Studies.
+  picture: assets/images/juliannenyhan.png
+  facebook: False
+  twitter: juliannenyhan
+  cover: False
+willardmccarty:
+  username: willardmccarty
+  name: Willard McCarty
+  location: London, UK
+  url_full: http://www.mccarty.org.uk/
+  url: www.mccarty.org.uk/
+  bio: Willard McCarty is Professor of Humanities Computing in the Department of Digital Humanities at King's College London, England, where he is director of the doctoral programme in the department.
+  picture: assets/images/willard-mccarty.jpg
+  facebook: False
+  twitter: False
+  cover: False
+geoffreyrockwell:
+  username: geoffreyrockwell
+  name: Geoffrey Rockwell
+  url_full: http://geoffreyrockwell.com/
+  url: geoffreyrockwell.com
+  bio: Dr. Geoffrey Martin Rockwell is a Professor of Philosophy and Humanities Computing at the University of Alberta, Canada.
+  picture: assets/images/geoffrey-rockwell.jpg
+  facebook: False
+  twitter: False
+  cover: False
+susanhockey:
+  username: susanhockey
+  name: Susan Hockey
+  url_full: False
+  url: False
+  bio: Susan Hockey is a founding member of several major digital humanities-related associations such as Association for Literary and Linguistic Computing (ALLC), 1973, and the Association for Computers and the Humanities (ACH). 
+  picture: assets/images/susan-hockey.jpg
+  facebook: False
+  twitter: False
+  cover: False
+haroldshort:
+  username: haroldshort
+  name: Harold Short
+  url_full: https://www.kcl.ac.uk/artshums/depts/ddh/people/emeritus/short/index.aspx
+  url: www.kcl.ac.uk/artshums/depts/ddh/people/emeritus/short/index.aspx
+  bio: Harold Short is Professor of Humanities Computing at King’s College London and a Visiting Professor at the University of Western Sydney in the School of Computing, Engineering and Mathematics.
+  picture: assets/images/harold.jpg
+  facebook: False
+  twitter: False
+  cover: False
+johnunsworth:
+  username: johnunsworth
+  name: John Unsworth
+  url_full: False
+  url: False
+  bio: Dr John Unsworth is Vice-Provost for Library and Technology Services and Chief Information Officer at Brandeis University.
+  picture: assets/images/john-unsworth.jpg
+  facebook: False
+  twitter: https://twitter.com/unsworth
+  cover: False
+raysiemens:
+  username: raysiemens
+  name: Ray Siemens
+  url_full: False
+  url: False
+  bio: Dr. Raymond Siemens is Canada Research Chair in Humanities Computing and Distinguished Professor in the Faculty of Humanities at the University of Victoria.
+  picture: assets/images/ray-siemens.jpg
+  facebook: False
+  twitter: False
+  cover: False
+johnhugh:
+  username: johnhugh
+  name: John Burrows, Hugh Craig
+  url_full: False
+  url: False
+  bio: Both of them were Professors of English at the University of Newcastle, Australia.
+  picture: assets/images/john-hugh.jpg
+  facebook: False
+  twitter: False
+  cover: False
+wilhelmott:
+  username: wilhelmott
+  name: Wilhelm Ott
+  url_full: False
+  url: False
+  bio: Wilhelm Ott was a research officer for computer applications in the Humanities at the Computing Center of the University of Tübingen from 1966 to 2003.
+  picture: assets/images/wilhelm-ott.jpg
+  facebook: False
+  twitter: False
+  cover: False
+titoorlandi:
+  username: titoorlandi
+  name: Tito Orlandi
+  url_full: http://www.cmcl.it/~orlandi/
+  url: www.cmcl.it/~orlandi
+  bio: Tito Orlandi was the Director (1984–1994) of ‘Informatica per le Scienze Umanistiche’ an early course in the area of Humanities Computing in his University in Italy.
+  picture: assets/images/tito-orlandi.jpg
+  facebook: False
+  twitter: False
+  cover: False
+judymalloy:
+  username: judymalloy
+  name: Judy Malloy
+  url_full: http://www.cmcl.it/~orlandi/
+  url: www.cmcl.it/~orlandi
+  bio: Judy Malloy is a poet whose works embrace the intersection of hypernarrative, magic realism, and information art.
+  picture: assets/images/judy-malloy.png
+  facebook: False
+  twitter: False
+  cover: False
+marydeeharris:
+  username: marydeeharris
+  name: Mary Dee Harris
+  url_full: https://marydeewordpresscom.wordpress.com/
+  url: marydeewordpresscom.wordpress.com
+  bio: Mary Dee Harris is a independent consultant in Computer Science, Natural Language Processing and Health IT; writer & editor.
+  picture: assets/images/mary-dee-harris.jpg
+  facebook: False
+  twitter: https://twitter.com/marydeeh
+  cover: False
+johnnitti:
+  username: johnnitti
+  name: John Nitti
+  url_full: False
+  url: False
+  bio: John Nitti has been Emeritus Professor of Spanish and Portuguese at the University of Wisconsin-Madison since 2001.
+  picture: assets/images/john-nitti.jpeg
+  facebook: False
+  twitter: False
+  cover: False
+helenaguera:
+  username: helenaguera
+  name: Helen Agüera
+  url_full: False
+  url: False
+  bio: Helen Agüera was Senior Program Officer at the National Endowment for the Humanities (NEH) in Washington.
+  picture: assets/images/helen-aguera.jpg
+  facebook: False
+  twitter: False
+  cover: False
+hansrutimann:
+  username: hansrutimann
+  name: Hans Rutimann
+  url_full: False
+  url: False
+  bio: Hans Rutimann is the Senior Advisor to the Scholarly Information and Information Technology Program of the Andrew W. Mellon Foundation and President of the Engineering Information Foundation (EIF).
+  picture: assets/images/no-photo.jpg
+  facebook: False
+  twitter: False
+  cover: False
+michaelsperbergmcqueen:
+  username: michaelsperbergmcqueen
+  name: Michael Sperberg-McQueen
+  url_full: False
+  url: False
+  bio: Michael Sperberg-McQueen is an American markup language specialist. He was co-editor of the Extensible Markup Language (XML) 1.0 spec (1998), and chair of the XML Schema working group.
+  picture: assets/images/michael-sperberg-mcqueen.jpg
+  facebook: False
+  twitter: False
+  cover: False
+manfredthaller:
+  username: manfredthaller
+  name: Manfred Thaller
+  url_full: False
+  url: False
+  bio: Manfred Thaller was a professor of historical and cultural information processing at the University of Cologne.
+  picture: assets/images/manfred-thaller.jpg
+  facebook: False
+  twitter: False
+  cover: False
+johnbradley:
+  username: johnbradley
+  name: John Bradley
+  url_full: False
+  url: False
+  bio: John Bradley is a Senior Lecturer in Department of Digital Humanities, King’s College London.
+  picture: assets/images/john-bradley.jpg
+  facebook: False
+  twitter: False
+  cover: False
+claushuitfeldt:
+  username: claushuitfeldt
+  name: Claus Huitfeldt
+  url_full: False
+  url: False
+  bio: Claus Huitfeldt is Associate Professor of Philosophy and Vice Dean for Education and Internationalisation at the University of Bergen.
+  picture: assets/images/claus-huitfeldt.jpg
+  facebook: False
+  twitter: False
+  cover: False
+gabrielegan:
+  username: gabrielegan
+  name: Gabriel Egan
+  url_full: False
+  url: False
+  bio: Gabriel Egan is Professor of Shakespeare Studies at De Monfort University, Leicester, UK.
+  picture: assets/images/gabriel-egan.jpg
+  facebook: False
+  twitter: False
+  cover: False
