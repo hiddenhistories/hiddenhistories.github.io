@@ -1,0 +1,39 @@
+.team-members {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    margin-top: 48px; 
+    margin-bottom: 32px; 
+    width: 100%;
+}
+
+.team-member {
+    width: 190px; 
+    max-width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-right: 8px; 
+    margin-bottom: 24px;
+}
+
+.team-member img {
+    display: block; 
+    width: 120px; 
+    height: 120px; 
+    margin-right: 8px;
+}
+
+.member-description {
+    text-align: center;
+}
+
+.name {
+    margin-top: 8px; 
+    margin-bottom: 4px;
+}
+
+.bio {
+    font-size: 14px; 
+    color: rgb(153, 153, 153);
+}
