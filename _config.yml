@@ -15,7 +15,7 @@ baseurl: /
 
 # Social info
 navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
+subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
 twitter: dhhist # replace by your username
@@ -65,7 +65,7 @@ safe: False
 lsi: False
 username: hiddenhistories
 repo: hiddenhistories.github.io
-branch: master
+branch: source
 relative_source: ../hiddenhistories/
 destination: ../hiddenhistories-pages/
 production_url:  https://hiddenhistories.github.io/
