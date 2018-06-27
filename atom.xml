@@ -1,28 +1,365 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }} - Articles</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <title> - Articles</title>
+    <description>Digital Humanities 1949 - Present</description>
     <link>
-    {{ site.url }}</link>
-    {% for post in site.posts %}
-      {% unless post.link %}
+    </link>
+    
+      
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <title>Podcasts of Symposium on Methodologies for the History of Computing in the Humanities, c.1949-1980 now available!</title>
+        
+          <description>&lt;p&gt;University College London, 17 September 2011
+(Sponsored by &lt;a href=&quot;http://www.hkfz.uni-trier.de/?&amp;amp;sel_id=1&quot;&gt;HKFZ&lt;/a&gt; and &lt;a href=&quot;https://www.ucl.ac.uk/dh/&quot;&gt;UCLDH&lt;/a&gt;)&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 17 Jun 2018 10:18:00 +0000</pubDate>
         <link>
-        {{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        /symposium-on-methodologies</link>
+        <guid isPermaLink="true">/symposium-on-methodologies</guid>
       </item>
-      {% endunless %}
-    {% endfor %}
+      
+    
+      
+      <item>
+        <title>The Influence of Algorithmic Thinking: Judy Malloy and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;http://link.springer.com/chapter/10.1007/978-3-319-20170-2_7&quot;&gt;Chapter 7 of &lt;em&gt;Computation and the Humanities&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 11 Aug 2015 10:18:00 +0000</pubDate>
+        <link>
+        /judy-malloy</link>
+        <guid isPermaLink="true">/judy-malloy</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>The University Was Still Taking Account of universitas scientiarum: Wilhelm Ott and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;http://link.springer.com/chapter/10.1007/978-3-319-20170-2_4&quot;&gt;Chapter 4 of &lt;em&gt;Computation and the Humanities&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 14 Jul 2015 10:18:00 +0000</pubDate>
+        <link>
+        /wilhelm-ott</link>
+        <guid isPermaLink="true">/wilhelm-ott</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Welcome to Hidden Histories</title>
+        
+          <description>&lt;p&gt;&lt;strong&gt;Hidden Histories is a research project into the application of computational methods to the humanities during the period from 1949 to the present. The project conducts, collects and disseminates interviews with scholars and practitioners who were active during this period. Combining the interviews with archival data, new insight is gained into the emergence of a field known today as &lt;em&gt;digital humanities&lt;/em&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 02 Jul 2015 10:00:00 +0000</pubDate>
+        <link>
+        /welcome</link>
+        <guid isPermaLink="true">/welcome</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>I Would Think of Myself as Sitting Inside the Computer: Mary Dee Harris and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-319-20170-2_8&quot;&gt;Chapter 8 of &lt;em&gt;Computation and the Humanities&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Audio version: accompanying &lt;a href=&quot;http://hiddenhistories.omeka.net/admin/items/show/41&quot;&gt;audio interview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Wed, 03 Jun 2015 10:18:00 +0000</pubDate>
+        <link>
+        /mary-dee-harris</link>
+        <guid isPermaLink="true">/mary-dee-harris</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>hic Rhodus, hic salta: Tito Orlandi and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;http://link.springer.com/chapter/10.1007/978-3-319-20170-2_5&quot;&gt;Chapter 5 of &lt;em&gt;Computation and the Humanities&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 17 Oct 2014 10:18:00 +0000</pubDate>
+        <link>
+        /tito-orlandi</link>
+        <guid isPermaLink="true">/tito-orlandi</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Getting Computers into Humanists’ Thinking: John Bradley and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-319-20170-2_14&quot;&gt;Chapter 14 of &lt;em&gt;Computation and the Humanities&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 09 Sep 2014 10:18:00 +0000</pubDate>
+        <link>
+        /john-bradley</link>
+        <guid isPermaLink="true">/john-bradley</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Moderate Expectations, Tolerable Disappointments: Claus Huitfeldt and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-319-20170-2_15&quot;&gt;Chapter 15 of &lt;em&gt;Computation and the Humanities&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 11 Jul 2014 10:18:00 +0000</pubDate>
+        <link>
+        /claus-huitfeldt</link>
+        <guid isPermaLink="true">/claus-huitfeldt</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>I Mourned the University for a Long Time: Michael Sperberg-McQueen and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-319-20170-2_12&quot;&gt;Chapter 12 of &lt;em&gt;Computation and the Humanities&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Wed, 09 Jul 2014 10:18:00 +0000</pubDate>
+        <link>
+        /michael-sperberg-mcqueen</link>
+        <guid isPermaLink="true">/michael-sperberg-mcqueen</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>It’s Probably the only Modestly Widely Used System with a Command Language in Latin: Manfred Thaller and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-319-20170-2_13&quot;&gt;Chapter 13 of &lt;em&gt;Computation and the Humanities&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Wed, 09 Jul 2014 10:18:00 +0000</pubDate>
+        <link>
+        /manfred-thaller</link>
+        <guid isPermaLink="true">/manfred-thaller</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>There Had to Be a Better Way: John Nitti and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-319-20170-2_9&quot;&gt;Chapter 9 of &lt;em&gt;Computation and the Humanities&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Thu, 17 Oct 2013 10:18:00 +0000</pubDate>
+        <link>
+        /john-nitti</link>
+        <guid isPermaLink="true">/john-nitti</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>It’s a Little Mind-Boggling: Helen Agüera and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-319-20170-2_10&quot;&gt;Chapter 10 of &lt;em&gt;Computation and the Humanities&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Wed, 18 Sep 2013 10:18:00 +0000</pubDate>
+        <link>
+        /helen-aguera</link>
+        <guid isPermaLink="true">/helen-aguera</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>They Took a Chance: Susan Hockey and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-319-20170-2_6&quot;&gt;Chapter 6 of &lt;em&gt;Computation and the Humanities&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 21 Jun 2013 10:18:00 +0000</pubDate>
+        <link>
+        /susan-hockey</link>
+        <guid isPermaLink="true">/susan-hockey</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Individuation Is There in All the Different Strata: John Burrows, Hugh Craig and Willard McCarty</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;http://link.springer.com/chapter/10.1007/978-3-319-20170-2_3&quot;&gt;&lt;em&gt;Computation and the Humanities&lt;/em&gt;, Chapter 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 04 Jun 2013 10:18:00 +0000</pubDate>
+        <link>
+        /john-burrows-hugh-craig</link>
+        <guid isPermaLink="true">/john-burrows-hugh-craig</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>I Heard About the Arrival of the Computer: Hans Rutimann and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-319-20170-2_11&quot;&gt;Chapter 11 of &lt;em&gt;Computation and the Humanities&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Thu, 15 Nov 2012 10:18:00 +0000</pubDate>
+        <link>
+        /hans-rutimann</link>
+        <guid isPermaLink="true">/hans-rutimann</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Postmodern Culture and More: an Oral History Conversation between John Unsworth and Anne Welsh</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;http://www.digitalhumanities.org/dhq/vol/6/3/000132/000132.html&quot;&gt;&lt;em&gt;Digital Humanities Quarterly&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 01 Jun 2012 10:18:00 +0000</pubDate>
+        <link>
+        /john-unsworth</link>
+        <guid isPermaLink="true">/john-unsworth</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>“Collaboration Must Be Fundamental or It's Not Going to Work”: an Oral History Conversation between Harold Short and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;http://www.digitalhumanities.org/dhq/vol/6/3/000133/000133.html&quot;&gt;&lt;em&gt;Digital Humanities Quarterly&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 01 Jun 2012 10:18:00 +0000</pubDate>
+        <link>
+        /harold-short</link>
+        <guid isPermaLink="true">/harold-short</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Trading Stories: an Oral History Conversation between Geoffrey Rockwell and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;http://www.digitalhumanities.org/dhq/vol/6/3/000135/000135.html&quot;&gt;&lt;em&gt;Digital Humanities Quarterly&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sat, 28 Apr 2012 10:18:00 +0000</pubDate>
+        <link>
+        /geoffrey-rockwell</link>
+        <guid isPermaLink="true">/geoffrey-rockwell</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>So, Into the Chopper It Went: Gabriel Egan and Julianne Nyhan</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-319-20170-2_16&quot;&gt;Chapter 16 of &lt;em&gt;Computation and the Humanities&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 27 Mar 2012 10:18:00 +0000</pubDate>
+        <link>
+        /gabriel-egan</link>
+        <guid isPermaLink="true">/gabriel-egan</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Questioning, Asking and Enduring Curiosity: an Oral History Conversation between Julianne Nyhan and Willard McCarty</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;http://www.digitalhumanities.org/dhq/vol/6/3/000134/000134.html&quot;&gt;&lt;em&gt;Digital Humanities Quarterly&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 27 Mar 2012 10:18:00 +0000</pubDate>
+        <link>
+        /willard-mccarty</link>
+        <guid isPermaLink="true">/willard-mccarty</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Video-gaming, Paradise Lost and TCP/IP: an Oral History Conversation between Ray Siemens and Anne Welsh</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Full text: in &lt;a href=&quot;http://www.digitalhumanities.org/dhq/vol/6/3/000131/000131.html&quot;&gt;&lt;em&gt;Digital Humanities Quarterly&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 21 Jun 2011 10:18:00 +0000</pubDate>
+        <link>
+        /ray-siemens</link>
+        <guid isPermaLink="true">/ray-siemens</guid>
+      </item>
+      
+    
   </channel>
 </rss>
