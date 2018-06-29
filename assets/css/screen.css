@@ -1094,7 +1094,7 @@ Usage (In Ghost editor):
     border-color: color(var(--lightgrey) l(-2%));
 }
 
-.subscribe-form button {
+.subscribe-form input[type="submit"] {
     display: inline-block;
     margin: 0 0 0 10px;
     padding: 0 20px;
@@ -1114,6 +1114,7 @@ Usage (In Ghost editor):
     );
     border-radius: 5px;
     box-shadow: 0 0 0 1px inset rgba(0,0,0,0.14);
+    border: none;
 
     -webkit-font-smoothing: subpixel-antialiased;
 }
@@ -1828,7 +1829,7 @@ Usage (In Ghost editor):
     border-color: color(var(--lightgrey) l(-2%));
 }
 
-.subscribe-overlay button {
+.subscribe-overlay input[type="submit"] {
     display: inline-block;
     margin: 0 0 0 15px;
     padding: 0 25px;
@@ -1848,6 +1849,7 @@ Usage (In Ghost editor):
     );
     border-radius: 8px;
     box-shadow: 0 0 0 1px inset rgba(0,0,0,0.14);
+    border: none;
 
     -webkit-font-smoothing: subpixel-antialiased;
 }
