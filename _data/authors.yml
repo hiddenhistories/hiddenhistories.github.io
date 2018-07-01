@@ -199,3 +199,73 @@ gabrielegan:
   facebook: False
   twitter: False
   cover: False
+philipbarras:
+  username: philipbarras
+  name: Philip Barras
+  url_full: False
+  url: False
+  bio: Philip Barras is the English translator of Father Roberto Busa's work.
+  picture: assets/images/translator.jpg
+  facebook: False
+  twitter: False
+  cover: False
+johndawson:
+  username: johndawson
+  name: John Dawson
+  url_full: https://www.wolfson.cam.ac.uk/people/dr-john-dawson
+  url: www.wolfson.cam.ac.uk/people/dr-john-dawson
+  bio: Dr John Dawson is a Genealogist and Family Historian, he was also the Manager of Literary and Linguistic, CU Computing Service, Computer Centre in Wolfson College Cambridge.
+  picture: assets/images/genealogist.jpg
+  facebook: False
+  twitter: False
+  cover: False
+lornahughes:
+  username: lornahughes
+  name: Lorna Hughes
+  url_full: https://www.gla.ac.uk/schools/humanities/staff/lornahughes/
+  url: www.gla.ac.uk/schools/humanities/staff/lornahughes/
+  bio: Lorna Hughes is Professor in Digital Humanities (Information Studies) in University of Glasgow.
+  picture: assets/images/lorna-hughes.jpg
+  facebook: False
+  twitter: https://twitter.com/lornamhughes
+  cover: False
+williampannapacker:
+  username: williampannapacker
+  name: William Pannapacker
+  url_full: https://hope.edu/directory/people/pannapacker-william/index.html
+  url: hope.edu/directory/people/pannapacker-william/index.html
+  bio: William Pannapacker is the DuMez Professor of English in the Hope College, and the Senior Director of the Andrew W. Mellon Foundation Grand Challenges Presidential Initiative.
+  picture: assets/images/william-pannapacker.jpg
+  facebook: False
+  twitter: https://twitter.com/pannapacker
+  cover: False
+marcopassarotti:
+  username: marcopassarotti
+  name: Marco Passarotti
+  url_full: http://docenti.unicatt.it/ita/marco_carlo_passarotti/
+  url: docenti.unicatt.it/ita/marco_carlo_passarotti/
+  bio: Marco Passarotti is a Professor at Catholic University of Milan, his research activity is located in the field of computational linguistics.
+  picture: assets/images/marco-passarotti.jpg
+  facebook: False
+  twitter: False
+  cover: False
+sedelow:
+  username: sedelow
+  name: Walter A. Sedelow Jr. and Sally Yeates Sedelow
+  url_full: http://www.roget.org/Sedelow.html
+  url: www.roget.org/Sedelow.html
+  bio: Walter A. Sedelow Jr. and Sally Yeates Sedelow pioneered methods of automated analysis of language and discourse, stylistic analysis, lexical databases (Roget's Thesaurus) and computer applications in the humanities. 
+  picture: assets/images/sedelow.jpg
+  facebook: False
+  twitter: False
+  cover: False
+johnbsmith:
+  username: johnbsmith
+  name: John B. Smith
+  url_full: https://www.cs.unc.edu/Research/jbsArchive/
+  url: www.cs.unc.edu/Research/jbsArchive/
+  bio: John B. Smith is Professor Emeritus in Department of Computer Science, University of North Carolina. 
+  picture: assets/images/jbs.jpg
+  facebook: False
+  twitter: False
+  cover: False
