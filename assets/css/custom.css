@@ -36,4 +36,6 @@
 .bio {
     font-size: 14px; 
     color: rgb(153, 153, 153);
+    line-height: 1.2;
+    font-size: 90%;
 }
