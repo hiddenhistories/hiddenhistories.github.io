@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Site Moved</title>
+  <!-- Meta Refresh as a Fallback -->
+  <meta http-equiv="refresh" content="5; url=https://medorah.art/s/hiddenhistories/page/about">
+  <style>
+    /* Optional: Add some basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1>We've Moved!</h1>
+  <p>
+    Our website has moved to a new address. You will be redirected to the new site in <span id="countdown">5</span> seconds.
+  </p>
+  <p>
+    If you are not redirected automatically, please click <a href="https://medorah.art/s/hiddenhistories/page/about">here</a>.
+  </p>
+  <script type="text/javascript">
+    (function() {
+      var seconds = 5;
+      var countdownElement = document.getElementById('countdown');
+      var redirectUrl = 'https://www.yournewdomain.com/';
+
+      var interval = setInterval(function() {
+        seconds--;
+        countdownElement.textContent = seconds;
+        if (seconds <= 0) {
+          clearInterval(interval);
+          window.location.href = redirectUrl;
+        }
+      }, 1000);
+    })();
+  </script>
+</body>
+</html>
